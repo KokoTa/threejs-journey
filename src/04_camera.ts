@@ -1,12 +1,11 @@
 /*
  * @Author: KokoTa
  * @Date: 2024-05-15 10:08:40
- * @LastEditTime: 2024-05-24 14:17:40
+ * @LastEditTime: 2024-05-24 14:27:03
  * @LastEditors: KokoTa
  * @Description:
  */
 import * as THREE from 'three'
-import gsap from 'gsap'
 import { OrbitControls } from 'three/examples/jsm/Addons.js'
 
 // Canvas
@@ -109,10 +108,3 @@ const tick = () => {
 }
 
 tick()
-
-// gsap.to(mesh.rotation, {
-//   y: Math.PI * 2,
-//   duration: 3,
-//   repeat: -1
-// })
-
