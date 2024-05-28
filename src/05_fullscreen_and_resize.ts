@@ -6,7 +6,6 @@
  * @Description:
  */
 import { OrbitControls } from 'three/examples/jsm/Addons.js'
-import './05_fullscreen_and_resize.css'
 import * as THREE from 'three'
 
 // Canvas

@@ -1,17 +1,38 @@
 <!--
  * @Author: KokoTa
  * @Date: 2024-05-15 10:00:20
- * @LastEditTime: 2024-05-25 14:46:34
+ * @LastEditTime: 2024-05-28 15:32:53
  * @LastEditors: KokoTa
  * @Description:
 -->
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    /* 阻止苹果系统下的滚动回弹行为 */
+    html,
+    body {
+      overflow: hidden;
+    }
+
+    .webgl {
+      position: fixed;
+      top: 0;
+      left: 0;
+      outline: none;
+    }
+  </style>
 </head>
+
 <body>
   <canvas class="webgl"></canvas>
   <!-- <script type="module" src="./src/01_first_test.ts"></script></script> -->
@@ -19,6 +40,8 @@
   <!-- <script type="module" src="./src/03_animation.ts"></script> -->
   <!-- <script type="module" src="./src/04_camera.ts"></script> -->
   <!-- <script type="module" src="./src/05_fullscreen_and_resize.ts"></script> -->
-  <script type="module" src="./src/06_geometrics.ts"></script>
+  <!-- <script type="module" src="./src/06_geometrics.ts"></script> -->
+  <script type="module" src="./src/07_debug_ui.ts"></script>
 </body>
+
 </html>
